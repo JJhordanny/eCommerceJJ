@@ -1,0 +1,17 @@
+{
+  "name": "ecomerce",
+  "version": "1.0.0",
+  "description": "This is a ecomerce website for class of Open Source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JJhordanny",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0"
+  }
+}
