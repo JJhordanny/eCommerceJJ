@@ -11,4 +11,8 @@ All of them tool are Open Source; <br>
 	-<a href="https://www.elastic.co/" target="_blank">Elastic</a> <br>
 	-<a href="http://jquery.com/" target="_blank">JQuery</a> <br>
 	-<a href="https://stripe.com/" target="_blank">Stripe</a> <br>
+	-Body Parser
 	And others libs...
+
+<h2>The Database schema for users, is the following</h2>
+
