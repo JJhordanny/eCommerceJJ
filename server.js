@@ -18,6 +18,7 @@ mongoose.connect('mongodb://root:root@ds040089.mlab.com:40089/ecommerce', functi
 });
 
 //Adding middleware
+app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
