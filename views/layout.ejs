@@ -18,16 +18,16 @@
   </head>
 
   <body>
+    <!--Including navbar-->
     <% include ./partials/navbar %>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <%- body -%>
+    <!--Including body-->
+    <%- body -%>
 
-    </div> <!-- /container -->
+    <!--Including footer-->
     <% include ./partials/footer %>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--Including other files-->
+    <% include ./partials/javascriptOnly %>
   </body>
 </html>
