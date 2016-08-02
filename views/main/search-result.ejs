@@ -1,0 +1,25 @@
+<% layout('layout') -%>
+
+<% if (data.length === 0) { %>
+  <div class="container">
+  <h3>Busqueda para "<%= query %>" no Encontrada</h3>
+  <% } else { %>
+    <h3>Resultados para "<%= query %>"</h3>
+      <div class="row">
+        <% for (var i = 0; i < data.length; i++) { %>
+          <div class="col-md-4">
+            <a href="/product/<%= data[i]._source._id %>">
+              <div class="thumbnail">
+                <img src="<%= data[i]._source.image %>"/>
+                <div class="caption">
+                  <h3><span style="font-weight: bold"><%= data[i]._source.name %></span></h3>
+                  <h3><%= data[i]._source.category.name %></h3>
+                  <h3>$<%= data[i]._source.price %></h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </div>
+    </div>
+<% } %>
