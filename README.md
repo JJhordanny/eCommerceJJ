@@ -33,4 +33,3 @@ All of them tool are Open Source; <br>
 *{npm install passport-local --save} Local is a strategy of passport. </br>
 *{npm install faker async --save} for fake data </br>
 <h2>The Database schema for users, is the following</h2>
-
